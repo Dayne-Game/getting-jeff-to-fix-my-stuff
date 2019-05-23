@@ -1,0 +1,20 @@
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/bin/Debug/Movie Manager.exe
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/bin/Debug/Movie Manager.pdb
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/actool/_PartialAppManifest.items
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool-manifests/Main.storyboardc
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/MainMovieManager.csprojAssemblyReference.cache
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/MainMovieManager.csproj.CoreCompileInputs.cache
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/Movie Manager.exe
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/Movie Manager.pdb
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/bin/Debug/Newtonsoft.Json.dll
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/bin/Debug/Newtonsoft.Json.xml
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/MainMovieManager.csproj.CopyComplete
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool/Main.storyboardc/NSViewController-juD-Jw-l7v.nib
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool/Main.storyboardc/juD-Jw-l7v-view-fwU-y6-d4P.nib
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool-manifests/Second.nib
+/Users/dayne-game/Projects/MainMovieManager/MainMovieManager/obj/Debug/ibtool/Second.nib
