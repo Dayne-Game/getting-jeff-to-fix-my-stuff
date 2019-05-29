@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Net;
 using System.Diagnostics;
 using System.IO;
+using MainMovieManager.Interfaces;
 
 namespace MainMovieManager.Classes
 {
-    public class Person
+    public class Person : IPerson
     {
         public string PersonIndex { get; set; }
         public bool GotPerson { get; set; }

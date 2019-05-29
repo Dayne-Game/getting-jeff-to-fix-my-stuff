@@ -68,6 +68,7 @@
     <Folder Include="Resources\" />
     <Folder Include="Classes\" />
     <Folder Include="Database_Models\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -94,6 +95,13 @@
     <Compile Include="Classes\Requests.cs" />
     <Compile Include="Database_Models\Wishlist_Model.cs" />
     <Compile Include="Classes\Wishlist.cs" />
+    <Compile Include="Database_Models\Wishlist_Model_With_ID.cs" />
+    <Compile Include="Interfaces\IPerson.cs" />
+    <Compile Include="Interfaces\IValidate.cs" />
+    <Compile Include="Interfaces\IMovies.cs" />
+    <Compile Include="Interfaces\IWishlist.cs" />
+    <Compile Include="Interfaces\IRequests.cs" />
+    <Compile Include="Interfaces\ISignin.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />

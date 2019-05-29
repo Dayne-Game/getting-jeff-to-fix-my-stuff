@@ -1,7 +1,9 @@
 ﻿using System;
+using MainMovieManager.Interfaces;
+
 namespace MainMovieManager.Classes
 {
-    public class Validate
+    public class Validate :  IValidate
     {
         public int Counter = 0;
 
@@ -48,5 +50,48 @@ namespace MainMovieManager.Classes
                 return "Passwords Don't Match";
             }
         } 
+
+        public bool Check_MID(string MID)
+        {
+            if(MID == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public bool Check_PID(string PID)
+        { 
+            if(PID == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        public bool Check_PID_and_MID_Together(string MID, string PID)
+        {
+            if(Check_MID(MID) == true && Check_PID(PID) == false)
+            {
+                return false;
+            }
+            else if (Check_MID(MID) == false && Check_PID(PID) == true)
+            {
+                return false;
+            }
+            else if (Check_MID(MID) == false && Check_PID(PID) == false)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }

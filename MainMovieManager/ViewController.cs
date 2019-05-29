@@ -52,7 +52,7 @@ namespace MainMovieManager
                 List<Movie_Model> data = JsonConvert.DeserializeObject<List<Movie_Model>>(json);
                 MovieTitle.StringValue = m1.SearchMovies(SearchBar.StringValue, data);
                 AssignMovieImageToButton(MovieImageButton, m1);
-                m1.CheckDescription(MovieDescription);
+                CheckDescription(MovieDescription);
 
             }
         }
@@ -96,16 +96,17 @@ namespace MainMovieManager
 
             if (v1.Counter == 4 && p1.GotPerson == true)
                 UpdateLabel.StringValue = p1.UpdatePerson(fname, lname, password2, email);
+
+            WishlistLabel.StringValue = w1.DisplayWishlist();
         }
 
         partial void MovieToWishlist(Foundation.NSObject sender)
         {
             WishlistLabel.StringValue = " ";
             w1.PID = SecondController.sign.GetPerson;
-            //w1.MID = m1.GetMovieID;
-            //WishlistLabel.StringValue = w1.AddItemWishlist();
-
-            WishlistLabel.StringValue = w1.RemoveItemFromWishlist();
+            w1.MID = m1.GetMovieID;
+            w1.DeserilizeWishlistData();
+            WishlistLabel.StringValue = w1.Check_MID_isnot_in_List(w1);
         }
 
         partial void SearchWishList(Foundation.NSObject sender)
@@ -113,6 +114,25 @@ namespace MainMovieManager
             WishlistLabel.StringValue = "";
             w1.PID = SecondController.sign.GetPerson;
             WishlistLabel.StringValue = w1.DisplayWishlist();
+        }
+
+        partial void DeleteMovie(Foundation.NSObject sender)
+        {
+            NotifiDeleteLabel.StringValue = w1.Remove_Movie_From_Wishlist(MovieInputTextField.StringValue);
+            WishlistLabel.StringValue = w1.DisplayWishlist();
+        }
+
+
+        public void CheckDescription(NSTextField input)
+        {
+            if (m1.isDescription == true)
+                input.Hidden = false;
+            else
+            {
+                input.StringValue = "Click on the Movie to read the Description, Genre and Rating!";
+                input.Hidden = true;
+            }
+
         }
     }
 }

@@ -1,25 +1,19 @@
 ﻿<Properties StartupConfiguration="{E13656DC-1517-45F4-A9E4-959A5E35E8F0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MainMovieManager/Classes/Requests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainMovieManager/Interfaces/EmptyInterface.cs">
     <Files>
-      <File FileName="MainMovieManager/Classes/Wishlist.cs" Line="95" Column="39" />
-      <File FileName="MainMovieManager/Database_Models/Wishlist_Model.cs" Line="5" Column="6" />
-      <File FileName="MainMovieManager/ViewController.cs" Line="113" Column="44" />
       <File FileName="MainMovieManager/Classes/Signin.cs" Line="36" Column="38" />
-      <File FileName="MainMovieManager/ViewController.designer.cs" Line="211" Column="1" />
-      <File FileName="MainMovieManager/Classes/Requests.cs" Line="57" Column="3" />
-      <File FileName="MainMovieManager/Classes/Movies.cs" Line="34" Column="39" />
-      <File FileName="MainMovieManager/Classes/Validate.cs" Line="50" Column="10" />
-      <File FileName="MainMovieManager/Classes/Person.cs" Line="59" Column="47" />
+      <File FileName="MainMovieManager/Interfaces/EmptyInterface.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MainMovieManager" expanded="True">
             <Node name="MainMovieManager" expanded="True">
-              <Node name="Classes" expanded="True">
-                <Node name="Requests.cs" selected="True" />
-              </Node>
+              <Node name="Classes" expanded="True" />
               <Node name="Database_Models" expanded="True" />
+              <Node name="Interfaces" expanded="True">
+                <Node name="EmptyInterface.cs" selected="True" />
+              </Node>
               <Node name="SecondController.cs" expanded="True" />
               <Node name="ViewController.cs" expanded="True" />
             </Node>
@@ -29,8 +23,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="../../../MainMovieManager/Classes/Requests.cs" line="68" offsetX="93" offsetY="1005" expression="System.Net.HttpWebResponse" liveUpdate="False" />
-    <Watch file="../../../MainMovieManager/Classes/Requests.cs" line="71" offsetX="533" offsetY="1050" expression="httpResponse" liveUpdate="False" />
+    <Watch file="../../../MainMovieManager/Classes/Requests.cs" line="68" offsetX="480" offsetY="1037" expression="System.Net.HttpWebResponse" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.MainMovieManager PreferredExecutionTarget="Test1" />

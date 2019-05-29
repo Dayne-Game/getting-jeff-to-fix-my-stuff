@@ -1,2 +1,2 @@
-2019-05-23 16:36:52.866 Movie Manager[4791:326373] Failed to connect (MovieToWishlist) outlet from (ViewController) to (NSButton): missing setter or instance variable
-2019-05-23 16:36:52.894 Movie Manager[4791:326373] Could not connect action, target class ViewController does not respond to -FindMovie:
+2019-05-29 16:26:50.096 Movie Manager[12726:1811863] Failed to connect (MovieToWishlist) outlet from (ViewController) to (NSButton): missing setter or instance variable
+2019-05-29 16:26:50.129 Movie Manager[12726:1811863] Could not connect action, target class ViewController does not respond to -FindMovie:

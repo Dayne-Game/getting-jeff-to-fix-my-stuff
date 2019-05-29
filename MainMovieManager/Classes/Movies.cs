@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using AppKit;
 using Foundation;
 using MainMovieManager.Database_Models;
+using MainMovieManager.Interfaces;
 
 namespace MainMovieManager.Classes
 {
-    public class Movies
+    public class Movies : IMovies
     {
         public string GetMovieID { get; set; }
         public string MovieImageUrl { get; set; }
@@ -17,7 +18,6 @@ namespace MainMovieManager.Classes
         public string SearchMovies(string searchinput, List<Movie_Model> data)
         { 
             string output = "";
-            var x = Convert.ToString(data);
             var input = searchinput.ToLower();
             description = new List<string>();
             foreach(Movie_Model i in data)
@@ -58,18 +58,6 @@ namespace MainMovieManager.Classes
                 output += $"{item}\n\n";
             }
             return output;
-        }
-
-        public void CheckDescription(NSTextField input)
-        {
-            if(isDescription == true)
-                input.Hidden = false;
-            else
-            {
-                input.StringValue = "Click on the Movie to read the Description, Genre and Rating!";
-                input.Hidden = true;
-            }
-
         }
 
         public string DisplayMovieDescription()

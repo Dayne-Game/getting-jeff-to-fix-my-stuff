@@ -46,7 +46,13 @@ namespace MainMovieManager
         AppKit.NSButton MovieImageButton { get; set; }
 
         [Outlet]
+        AppKit.NSTextField MovieInputTextField { get; set; }
+
+        [Outlet]
         AppKit.NSTextField MovieTitle { get; set; }
+
+        [Outlet]
+        AppKit.NSTextField NotifiDeleteLabel { get; set; }
 
         [Outlet]
         AppKit.NSSecureTextField Password2TextField { get; set; }
@@ -64,16 +70,25 @@ namespace MainMovieManager
         AppKit.NSTextField SigninLabel { get; set; }
 
         [Outlet]
+        AppKit.NSScrollView TableView { get; set; }
+
+        [Outlet]
         AppKit.NSButton UpdateButton { get; set; }
 
         [Outlet]
         AppKit.NSTextField UpdateLabel { get; set; }
 
         [Outlet]
+        AppKit.NSScrollView WishlisTable { get; set; }
+
+        [Outlet]
         AppKit.NSButton WishlistButton { get; set; }
 
         [Outlet]
         AppKit.NSTextField WishlistLabel { get; set; }
+
+        [Action ("DeleteMovie:")]
+        partial void DeleteMovie (Foundation.NSObject sender);
 
         [Action ("DisplayMovieDescription:")]
         partial void DisplayMovieDescription (Foundation.NSObject sender);
@@ -101,9 +116,24 @@ namespace MainMovieManager
         
         void ReleaseDesignerOutlets ()
         {
-            if (WishlistLabel != null) {
-                WishlistLabel.Dispose ();
-                WishlistLabel = null;
+            if (TableView != null) {
+                TableView.Dispose ();
+                TableView = null;
+            }
+
+            if (WishlisTable != null) {
+                WishlisTable.Dispose ();
+                WishlisTable = null;
+            }
+
+            if (MovieInputTextField != null) {
+                MovieInputTextField.Dispose ();
+                MovieInputTextField = null;
+            }
+
+            if (NotifiDeleteLabel != null) {
+                NotifiDeleteLabel.Dispose ();
+                NotifiDeleteLabel = null;
             }
 
             if (AccountButton != null) {
@@ -204,6 +234,11 @@ namespace MainMovieManager
             if (WishlistButton != null) {
                 WishlistButton.Dispose ();
                 WishlistButton = null;
+            }
+
+            if (WishlistLabel != null) {
+                WishlistLabel.Dispose ();
+                WishlistLabel = null;
             }
         }
     }
