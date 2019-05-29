@@ -26,7 +26,7 @@ namespace MainMovieManager
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
+            WishlistLabel.StringValue = $"Welcome: {p1.GetPerson()}";
 
             // Do any additional setup after loading the view.
         }

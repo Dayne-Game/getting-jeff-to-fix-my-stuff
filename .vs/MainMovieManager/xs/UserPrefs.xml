@@ -1,19 +1,24 @@
 ﻿<Properties StartupConfiguration="{E13656DC-1517-45F4-A9E4-959A5E35E8F0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MainMovieManager/Interfaces/EmptyInterface.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainMovieManager/Classes/Validate.cs">
     <Files>
-      <File FileName="MainMovieManager/Classes/Signin.cs" Line="36" Column="38" />
-      <File FileName="MainMovieManager/Interfaces/EmptyInterface.cs" Line="6" Column="1" />
+      <File FileName="MainMovieManager/Classes/Signin.cs" Line="57" Column="54" />
+      <File FileName="MainMovieManager/Interfaces/ISignin.cs" Line="14" Column="79" />
+      <File FileName="MainMovieManager/ViewController.cs" Line="28" Column="32" />
+      <File FileName="MainMovieManager/Interfaces/IPerson.cs" Line="7" Column="23" />
+      <File FileName="MainMovieManager/Classes/Person.cs" Line="12" Column="34" />
+      <File FileName="MainMovieManager/SecondController.cs" Line="48" Column="1" />
+      <File FileName="MainMovieManager/Classes/Validate.cs" Line="6" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MainMovieManager" expanded="True">
             <Node name="MainMovieManager" expanded="True">
-              <Node name="Classes" expanded="True" />
-              <Node name="Database_Models" expanded="True" />
-              <Node name="Interfaces" expanded="True">
-                <Node name="EmptyInterface.cs" selected="True" />
+              <Node name="Classes" expanded="True">
+                <Node name="Validate.cs" selected="True" />
               </Node>
+              <Node name="Database_Models" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
               <Node name="SecondController.cs" expanded="True" />
               <Node name="ViewController.cs" expanded="True" />
             </Node>
