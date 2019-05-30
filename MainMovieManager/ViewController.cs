@@ -26,7 +26,6 @@ namespace MainMovieManager
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            WishlistLabel.StringValue = $"Welcome: {p1.GetPerson()}";
 
             // Do any additional setup after loading the view.
         }
@@ -107,6 +106,7 @@ namespace MainMovieManager
             w1.MID = m1.GetMovieID;
             w1.DeserilizeWishlistData();
             WishlistLabel.StringValue = w1.Check_MID_isnot_in_List(w1);
+            WishlistLabel.StringValue = w1.DisplayWishlist();
         }
 
         partial void SearchWishList(Foundation.NSObject sender)

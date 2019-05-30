@@ -41,7 +41,7 @@ In VSCode and the Root Folder open up the intergrated terminal but going ``` con
 
 ## Setup GUI Application
 
-Open up Visual Studio for Mac ``` command + spacebar ``` and searcg Visual Studio and press enter, on Windows oh wait, you can't open it because you don't have a mac 🤣🤣🤣🤣🤣🤣
+Open up Visual Studio for Mac ``` command + spacebar ``` and search Visual Studio and press enter, on Windows oh wait, you can't open it because you don't have a mac 🤣🤣🤣🤣🤣🤣
 
 Once Visual Studio for Mac is opened open up the ```MainMovieManager.sln ``` which is inside the Root Folder, that I showed you before.
 
